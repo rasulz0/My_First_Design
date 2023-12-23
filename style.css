@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100dvh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 887px;
+    width: 100%;
+    min-height: 661px;
+    background-color: white;
+    padding: 82px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 8px 28px 0px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 8px 28px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 8px 28px 0px rgba(0,0,0,0.1);
+}
+.box_left{
+    max-width: 249px;
+    height: 100%;
+    width: 100%;
+}
+.box_right .heading .free{
+    padding: 4px 8px;
+    background-color: #191847;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.box_right .heading h2{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.box_right .price {
+    margin-top: 32px;
+    max-width: 365px;
+    width: 100%;
+}
+.box_right .price del{
+    font-size: 18px;
+}
+.box_right .price h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.box_right .price h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #191847;
+    opacity: 50%;
+}
+.box_right .main_btn{
+    border: none;
+    width: 100%;
+    margin-top: 32px;
+    background-color: #4788e9;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 16px 170.5px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border-bottom: 8px solid #065099;
+    font-family: inherit;
+}
+.box_right .stock{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.box_right .stock h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.box_right .stock span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #00D98B;
+    border-radius: 50%;
+}
+.box_right .add_btn{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.box_right .add_btn button{
+    padding: 16px 20px;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 48%;
+    border: 1px solid #19184769;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.box_right .add_btn button i{
+    font-size: 24px;
+}
